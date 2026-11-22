@@ -2,8 +2,9 @@ services:
   - type: web
     name: nut-complaint-intelligence
     runtime: python
-    buildCommand: ""
+    buildCommand: python train.py
     startCommand: python app.py
+    healthCheckPath: /
     envVars:
       - key: HOST
         value: 0.0.0.0

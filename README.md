@@ -92,6 +92,13 @@ for 50 or more representative examples per category for an initial model.
 - `PROJECT_SUMMARY.md` - presentation-ready explanation of the project.
 - `GITHUB_UPLOAD.md` - steps for publishing this project to GitHub.
 
+## Deploy on Render
+
+This repository includes `render.yaml` for deployment on [Render](https://render.com).
+When creating a new **Blueprint** from this GitHub repository, Render runs
+`python train.py` during the build to create the model, then starts the dashboard
+with `python app.py`.
+
 ## Important note
 
 This project demonstrates the complete workflow but is not production ready.
