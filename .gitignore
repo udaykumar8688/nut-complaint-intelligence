@@ -1,0 +1,18 @@
+# Local Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated model output (rebuild with `python train.py`)
+models/*.json
+
+# Local runtime output
+logs/
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

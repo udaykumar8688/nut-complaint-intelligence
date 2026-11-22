@@ -1,0 +1,181 @@
+complaint,category
+"I was charged twice for my monthly subscription.",Billing
+"The payment on my debit card appears two times.",Billing
+"There is an unexplained fee on my latest statement.",Billing
+"My invoice shows a higher amount than I agreed to pay.",Billing
+"Please refund a duplicate transaction from yesterday.",Billing
+"I cancelled the service but another payment was collected.",Billing
+"The promotional discount was missing from my bill.",Billing
+"My valid card is being rejected when I try to pay.",Billing
+"I need a copy of the invoice for last month.",Billing
+"The price of my plan increased without any notice.",Billing
+"I was billed after my free trial should have ended.",Billing
+"Why was I given a late-payment charge?",Billing
+"Can you explain the tax added to my receipt?",Billing
+"My refund has not arrived in my bank account.",Billing
+"The amount withdrawn from my account is not correct.",Billing
+"My automatic payment did not go through this month.",Billing
+"I need to change the bank account used for billing.",Billing
+"The receipt says my payment is pending for too long.",Billing
+"I was charged an annual fee that I did not expect.",Billing
+"A payment was taken even though my account is closed.",Billing
+"The billing cycle date on my statement is wrong.",Billing
+"My card was charged for an order that I returned.",Billing
+"The payment page applied my coupon but the final bill ignored it.",Billing
+"I cannot download a receipt for a completed payment.",Billing
+"The system says I owe money after I already paid the balance.",Billing
+"My installment payment was processed with the wrong amount.",Billing
+"Please remove the fee for a transaction that failed.",Billing
+"I have a credit balance and need it returned to my card.",Billing
+"The amount on the emailed invoice differs from the website.",Billing
+"My payment confirmation is missing although money left my account.",Billing
+"The representative was rude during my support call.",Customer Service
+"I have waited three days and still have no reply from support.",Customer Service
+"Nobody answered when I called the customer-care number.",Customer Service
+"Please update the address saved on my account.",Customer Service
+"I want to close my account permanently.",Customer Service
+"An agent gave me information that conflicts with the website.",Customer Service
+"How do I change the email address connected to my profile?",Customer Service
+"My complaint was marked closed without a solution.",Customer Service
+"I need to speak with a supervisor about this issue.",Customer Service
+"The support team did not call me back as promised.",Customer Service
+"I need help with a basic question about my account.",Customer Service
+"Please change the phone number on my profile.",Customer Service
+"My request is still open even though the agent said it was resolved.",Customer Service
+"I was transferred between departments several times.",Customer Service
+"I would like to provide feedback about the service I received.",Customer Service
+"Please tell me how to reopen a closed support request.",Customer Service
+"The chat agent ended the conversation before helping me.",Customer Service
+"I cannot find a way to contact a real person.",Customer Service
+"Your agent did not understand the question I asked.",Customer Service
+"I need an update on the status of my complaint.",Customer Service
+"The service representative promised an email that never arrived.",Customer Service
+"Please remove an old mailing address from my profile.",Customer Service
+"I need someone to explain your cancellation policy.",Customer Service
+"The callback request form did not result in a phone call.",Customer Service
+"My account was closed and I need help understanding why.",Customer Service
+"I want to escalate an unresolved service problem.",Customer Service
+"The response I received was generic and did not address my question.",Customer Service
+"Please help me change the name shown on my account.",Customer Service
+"I cannot locate the confirmation from my previous support request.",Customer Service
+"The customer-care team keeps asking me to repeat the same details.",Customer Service
+"The mobile app crashes whenever I open it.",Technical Support
+"I cannot sign in after resetting my password.",Technical Support
+"The website shows an error when I submit the form.",Technical Support
+"My account page will not load in any browser.",Technical Support
+"I am not receiving the verification code by text message.",Technical Support
+"The application freezes on the payment screen.",Technical Support
+"My password-reset link expires immediately.",Technical Support
+"The service is down and my dashboard is unavailable.",Technical Support
+"The upload button does not respond when I select a file.",Technical Support
+"I see a blank screen after signing in.",Technical Support
+"Push notifications stopped working on my phone.",Technical Support
+"The app reports a network error despite a working internet connection.",Technical Support
+"I cannot connect my device to the service.",Technical Support
+"The webpage is very slow and eventually times out.",Technical Support
+"Two-factor authentication is not working for my account.",Technical Support
+"The password field keeps rejecting a valid password.",Technical Support
+"The browser says this site has a certificate error.",Technical Support
+"My account is locked after one failed login attempt.",Technical Support
+"The software update will not download.",Technical Support
+"I cannot install the app on my Android phone.",Technical Support
+"The search feature returns no results even for known records.",Technical Support
+"The menu disappears when I try to open settings.",Technical Support
+"My camera permission is enabled but document scanning fails.",Technical Support
+"The report export creates an empty file.",Technical Support
+"The website layout is broken on my tablet.",Technical Support
+"I receive an unknown server error while saving changes.",Technical Support
+"The app logs me out every few minutes.",Technical Support
+"The verification email link opens a page-not-found message.",Technical Support
+"My account data is not syncing between the website and mobile app.",Technical Support
+"The page keeps refreshing before I can complete the form.",Technical Support
+"I need to update the name displayed on my account.",Account Management
+"Please combine two accounts that belong to me.",Account Management
+"Where can I change my communication preferences?",Account Management
+"I want to deactivate my account but keep my records.",Account Management
+"My account profile shows an old job title.",Account Management
+"How do I transfer ownership of this account to my colleague?",Account Management
+"Please remove a former team member from our account.",Account Management
+"I need to update the company name associated with my profile.",Account Management
+"Can I change the language used in my account settings?",Account Management
+"My account has duplicate contact profiles that need to be merged.",Account Management
+"I want to download a copy of the details stored in my account.",Account Management
+"Please update the preferred contact method on my account.",Account Management
+"How can I add another administrator to our organization account?",Account Management
+"I need to change which team owns our business account.",Account Management
+"Please delete an outdated user profile from our workspace.",Account Management
+"Where do I manage account notifications and preferences?",Account Management
+"My account still displays a previous surname.",Account Management
+"I want to rename our organization account.",Account Management
+"Can I switch my personal account to a business account?",Account Management
+"Please update the primary contact for this account.",Account Management
+"How do I remove an unused account from my dashboard?",Account Management
+"I need to change the country attached to my account profile.",Account Management
+"Please help me update the account owner information.",Account Management
+"Can I restore an account that I deactivated by mistake?",Account Management
+"I want to archive an old account without deleting it.",Account Management
+"Where can I edit the account nickname?",Account Management
+"Please update the department listed on our account.",Account Management
+"I need to consolidate several user profiles into one account.",Account Management
+"Can I change the time zone saved in my account settings?",Account Management
+"Please remove an obsolete administrator from the account.",Account Management
+"I do not recognize a purchase in my account history.",Security & Fraud
+"Someone used my card details without my permission.",Security & Fraud
+"I think my account has been accessed by another person.",Security & Fraud
+"Please freeze my account because my phone was stolen.",Security & Fraud
+"I received a suspicious email asking for my password.",Security & Fraud
+"There are unauthorized transactions on my statement.",Security & Fraud
+"My account security alert was triggered by a login I did not make.",Security & Fraud
+"I clicked a phishing link and need to secure my account.",Security & Fraud
+"A device I do not know is listed in my recent activity.",Security & Fraud
+"My card was lost and I need to block it immediately.",Security & Fraud
+"I got a one-time verification code that I did not request.",Security & Fraud
+"Please investigate a fraudulent charge on my account.",Security & Fraud
+"Someone changed my security questions without asking me.",Security & Fraud
+"I suspect my identity was used to open this account.",Security & Fraud
+"An unfamiliar recipient appears in my payment activity.",Security & Fraud
+"My password was changed and I did not do it.",Security & Fraud
+"I received a security notification from an unknown location.",Security & Fraud
+"There is a transfer from my account that I never approved.",Security & Fraud
+"I think my card information has been compromised.",Security & Fraud
+"Please report a scammer who contacted me through your service.",Security & Fraud
+"A stranger is trying to reset my account password.",Security & Fraud
+"My account was locked after suspicious activity.",Security & Fraud
+"I do not recognize the new payee saved in my account.",Security & Fraud
+"Someone is making purchases using my saved payment method.",Security & Fraud
+"I believe this message is a fraud attempt.",Security & Fraud
+"Can you help me secure an account after a data breach?",Security & Fraud
+"My security token was lost and needs to be revoked.",Security & Fraud
+"An unknown browser signed into my account yesterday.",Security & Fraud
+"Please cancel a payment that was made by an intruder.",Security & Fraud
+"My personal details were exposed after an unauthorized login.",Security & Fraud
+"My order tracking has not updated for several days.",Orders & Delivery
+"The package arrived with an item missing from the box.",Orders & Delivery
+"I received the wrong product in my delivery.",Orders & Delivery
+"My shipment is late and I need a delivery update.",Orders & Delivery
+"The courier marked my order delivered but nothing arrived.",Orders & Delivery
+"How can I change the delivery address for an open order?",Orders & Delivery
+"I need to cancel an order that has not shipped yet.",Orders & Delivery
+"The product arrived damaged in the package.",Orders & Delivery
+"My order was split into two deliveries without explanation.",Orders & Delivery
+"The tracking link for my shipment does not work.",Orders & Delivery
+"I want to return an item from my recent order.",Orders & Delivery
+"The courier left the parcel at the wrong address.",Orders & Delivery
+"My replacement item has not been dispatched yet.",Orders & Delivery
+"I received an empty package instead of the product I ordered.",Orders & Delivery
+"Where can I find the estimated delivery date?",Orders & Delivery
+"The order status still says processing after a week.",Orders & Delivery
+"I need help arranging a pickup for my return.",Orders & Delivery
+"My parcel was delivered to a neighbor without permission.",Orders & Delivery
+"The shipment arrived after the event date I selected.",Orders & Delivery
+"Please send the missing accessory from my order.",Orders & Delivery
+"My order confirmation lists the wrong delivery address.",Orders & Delivery
+"I need a new tracking number for the replacement order.",Orders & Delivery
+"The item I received does not match the product description.",Orders & Delivery
+"My delivery was cancelled by the courier without a reason.",Orders & Delivery
+"Can I reschedule the delivery for another day?",Orders & Delivery
+"The return label for my order was not included.",Orders & Delivery
+"I was charged shipping but my order never left the warehouse.",Orders & Delivery
+"The courier asked me to pay an unexpected delivery fee.",Orders & Delivery
+"My order has been stuck at the sorting facility.",Orders & Delivery
+"I need proof that my package was delivered.",Orders & Delivery

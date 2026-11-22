@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="NUT is a customer complaint routing project by Nishant Kumar, Uday Kumar, and Tanu Yadav." />
+    <meta name="theme-color" content="#173c3a" />
+    <title>NUT | Complaint Intelligence</title>
+    <link rel="icon" type="image/png" href="/static/nut-walnut-favicon.png?v=transparent" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div id="nut-loader" class="nut-loader" role="status" aria-live="polite" aria-label="NUT Complaint Intelligence is loading">
+      <div class="loader-grid" aria-hidden="true"></div>
+      <div class="loader-content">
+        <div class="loader-orbit orbit-left"></div>
+        <div class="loader-orbit orbit-right"></div>
+        <div class="loader-stage" aria-hidden="true">
+          <span class="loader-beam beam-one"></span><span class="loader-beam beam-two"></span>
+          <div class="loader-word"><b>N</b><b>U</b><b>T</b></div>
+          <div class="loader-routes"><span class="loader-route loader-route-billing"><i></i> Billing</span><span class="loader-route loader-route-service"><i></i> Service</span><span class="loader-route loader-route-technical"><i></i> Tech</span><span class="loader-route loader-route-account"><i></i> Accounts</span><span class="loader-route loader-route-security"><i></i> Security</span><span class="loader-route loader-route-orders"><i></i> Delivery</span></div>
+        </div>
+        <p class="loader-kicker"><span></span> Complaint intelligence</p>
+        <p id="loader-message" class="loader-message">Connecting complaint signals<span class="loader-dots">...</span></p>
+        <div class="loader-progress" aria-hidden="true"><span id="loader-progress-fill"></span></div>
+        <div class="loader-meta"><span>System check</span><strong id="loader-percent">0%</strong><span>Six routing queues</span></div>
+      </div>
+    </div>
+
+    <main>
+      <div class="intro-surface">
+    <header class="topbar shell" id="top">
+      <a class="brand" href="#top" aria-label="NUT home">
+        <span class="nut-logo nut-logo-small" aria-hidden="true"><i></i><b>N</b><b>U</b><b>T</b></span>
+        <span class="brand-copy"><strong>NUT</strong><em>Complaint Intelligence</em></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#mission">Mission</a>
+        <a href="#try-it">Live demo</a>
+        <a href="#story">Project story</a>
+        <a href="#team">Team</a>
+      </nav>
+
+      <div class="live-state"><span></span> Routing model ready</div>
+    </header>
+
+      <section class="hero shell" id="mission" aria-labelledby="hero-heading">
+        <div class="hero-copy reveal">
+          <p class="kicker"><span></span> A customer complaint intelligence project</p>
+          <h1 id="hero-heading">Make the first<br />response <em>count.</em></h1>
+          <p class="hero-text">NUT helps a support team understand a customer’s issue and send it to the team that can actually help—without the unnecessary back-and-forth.</p>
+          <div class="hero-actions">
+            <a class="cta-button" href="#try-it">Try live routing <span>↘</span></a>
+            <a class="text-link" href="#story">See the project story <span>→</span></a>
+          </div>
+          <div class="hero-proof">
+            <div><strong>06</strong><span>routing queues</span></div>
+            <div><strong>180</strong><span>sample cases</span></div>
+            <div><strong>NUT</strong><span>group project</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay" aria-label="NUT complaint routing routes">
+          <div class="visual-ticket-head"><span>NUT / route desk</span><span>Case 01</span></div>
+          <div class="visual-ticket-copy"><span>Incoming message</span><strong>“I was charged twice and no one has replied.”</strong></div>
+          <div class="route-list" aria-label="Available support routes">
+            <div class="route-row route-a"><span>01</span><b>Billing</b><small>Charges &amp; refunds</small></div>
+            <div class="route-row route-b"><span>02</span><b>Customer service</b><small>Replies &amp; requests</small></div>
+            <div class="route-row route-c"><span>03</span><b>Technical support</b><small>Apps &amp; access</small></div>
+            <div class="route-row route-d"><span>04</span><b>Account management</b><small>Profiles &amp; settings</small></div>
+            <div class="route-row route-e"><span>05</span><b>Security &amp; fraud</b><small>Unauthorized activity</small></div>
+            <div class="route-row route-f"><span>06</span><b>Orders &amp; delivery</b><small>Packages &amp; returns</small></div>
+          </div>
+          <div class="visual-foot"><span class="energy-dot"></span><span>Made by Nishant · Uday · Tanu</span><span>Six active queues</span></div>
+        </div>
+      </section>
+      </div>
+
+      <section class="problem-band" aria-label="Project goal">
+        <div class="shell problem-grid reveal">
+          <p class="section-label">The challenge</p>
+          <p class="problem-statement">When complaints arrive as unstructured messages, the first step is often slow and inconsistent. NUT turns that first read into a clear, explainable route.</p>
+          <span class="band-arrow" aria-hidden="true">↗</span>
+        </div>
+      </section>
+
+      <section class="journey shell" aria-labelledby="journey-heading">
+        <div class="section-intro reveal">
+          <p class="section-label">How NUT thinks</p>
+          <h2 id="journey-heading">From customer words<br />to the right team.</h2>
+          <p>This is the simple story behind our project—easy to show, easy to understand.</p>
+        </div>
+        <div class="journey-steps">
+          <article class="journey-card reveal">
+            <span class="step-number">01</span>
+            <div class="step-icon input-icon" aria-hidden="true"><i></i><i></i><i></i></div>
+            <h3>Listen</h3>
+            <p>A customer writes what went wrong in their own words. NUT receives that message as the starting point.</p>
+          </article>
+          <article class="journey-card reveal reveal-delay-one">
+            <span class="step-number">02</span>
+            <div class="step-icon scan-icon" aria-hidden="true"><i></i></div>
+            <h3>Recognise</h3>
+            <p>The model looks for language patterns learned from labelled complaint examples and compares the possible routes.</p>
+          </article>
+          <article class="journey-card reveal reveal-delay-two">
+            <span class="step-number">03</span>
+            <div class="step-icon route-icon" aria-hidden="true"><i></i><i></i><i></i></div>
+            <h3>Route</h3>
+            <p>NUT recommends the strongest destination and shows its confidence so a person can make the final call.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="demo-zone" id="try-it" aria-labelledby="demo-heading">
+        <div class="shell">
+          <div class="demo-heading reveal">
+            <div>
+              <p class="section-label">Interactive routing</p>
+              <h2 id="demo-heading">Let NUT read a complaint.</h2>
+            </div>
+            <p>Type a customer message, or start with a sample. The dashboard will suggest the right support queue and show why.</p>
+          </div>
+
+          <div class="workbench">
+            <article class="intake-card reveal" aria-labelledby="intake-heading">
+              <div class="card-topline"><span><i class="card-dot"></i> Incoming message</span><span id="character-count">0 / 3,000</span></div>
+              <h3 id="intake-heading">What is the customer facing?</h3>
+              <div class="typing-wrap">
+                <label class="sr-only" for="complaint-input">Customer complaint</label>
+                <textarea id="complaint-input" maxlength="3000" placeholder="Start writing the customer's complaint here..."></textarea>
+                <span class="typing-cursor" aria-hidden="true"></span>
+              </div>
+              <div class="sample-area">
+                <span>Quick start</span>
+                <button class="example-chip" data-example="I was billed twice for my annual subscription and need a refund.">Charged twice</button>
+                <button class="example-chip" data-example="I have waited for two days but nobody from support has answered my request.">No response</button>
+                <button class="example-chip" data-example="The mobile app crashes immediately after I sign in.">App crash</button>
+              </div>
+              <div class="intake-actions">
+                <button id="clear-button" class="reset-button" type="button">Clear message</button>
+                <button id="analyze-button" class="route-button" type="button"><span>Find the route</span><b>→</b></button>
+              </div>
+              <p class="keyboard-note">Tip: Press Ctrl + Enter to run the analysis.</p>
+            </article>
+
+            <article class="result-card reveal reveal-delay-one" aria-live="polite" aria-labelledby="result-heading">
+              <div class="card-topline"><span><i class="card-dot result-dot"></i> NUT recommendation</span><span id="result-status" class="status-pill waiting">Awaiting message</span></div>
+              <h3 id="result-heading">The next move is...</h3>
+
+              <div id="result-empty" class="result-empty">
+                <div class="empty-orbit"><span></span><i>?</i></div>
+                <strong>Ready when you are</strong>
+                <p>Once a complaint is submitted, NUT will reveal the best route, confidence score, and the language it recognised.</p>
+              </div>
+
+              <div id="result-content" class="result-content hidden">
+                <div class="decision-row">
+                  <div>
+                    <span class="result-label">Recommended queue</span>
+                    <h4 id="predicted-category">-</h4>
+                    <p id="decision-summary">The model will compare the available queues.</p>
+                  </div>
+                  <div class="confidence-orb" aria-label="Prediction confidence">
+                    <svg viewBox="0 0 76 76" aria-hidden="true"><circle class="orb-track" cx="38" cy="38" r="31"/><circle id="confidence-ring" class="orb-value" cx="38" cy="38" r="31"/></svg>
+                    <span id="confidence-value">0%</span>
+                  </div>
+                </div>
+                <div class="confidence-copy"><span id="confidence-label">-</span><span id="token-count">0 signals</span></div>
+                <div class="probability-section"><div class="micro-heading"><span>Confidence across all queues</span><span>Live score</span></div><div id="probability-bars" class="probability-bars"></div></div>
+                <div class="evidence-section"><span class="micro-heading">Language NUT recognised</span><div id="evidence-list" class="evidence-list"></div></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="model-stats reveal" aria-label="Model facts">
+            <div class="stat-card"><span>Decision model</span><strong id="stat-algorithm">Naive Bayes</strong></div>
+            <div class="stat-card"><span>Learning examples</span><strong id="stat-training">-</strong></div>
+            <div class="stat-card"><span>Vocabulary signals</span><strong id="stat-vocabulary">-</strong></div>
+            <div class="stat-card"><span>Routes available</span><strong id="stat-categories">-</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story shell" id="story" aria-labelledby="story-heading">
+        <div class="story-copy reveal">
+          <p class="section-label">Our project, in plain language</p>
+          <h2 id="story-heading">NUT is a smarter first desk<br />for customer support.</h2>
+          <p>Companies receive many customer complaints every day. Sorting each one manually takes time, and sending it to the wrong department delays help. Our project explores how Natural Language Processing can make that first decision faster and more consistent.</p>
+          <p>We trained a learning model with sample complaints that were already labelled by category. When a new message arrives, NUT compares its wording with those examples and recommends the most suitable team.</p>
+          <div class="story-callout"><span>Why it matters</span><p>Faster routing can help a customer reach the person who can solve their problem sooner.</p></div>
+        </div>
+        <div class="story-board reveal reveal-delay-one">
+          <div class="board-header"><span>Project snapshot</span><span>2026</span></div>
+          <div class="board-item"><b>Problem</b><p>Complaint messages are unstructured and can be difficult to sort quickly.</p></div>
+          <div class="board-item"><b>Solution</b><p>An NLP classifier that suggests one of six queues: Billing, Customer Service, Technical Support, Account Management, Security &amp; Fraud, or Orders &amp; Delivery.</p></div>
+          <div class="board-item"><b>Value</b><p>A clearer first response path, with visible confidence instead of a hidden decision.</p></div>
+          <div class="board-item data-note"><b>Responsible use</b><p>This classroom prototype uses fictional sample data. Real deployment requires approved data, human review, and privacy controls.</p></div>
+        </div>
+      </section>
+
+      <section class="activity-section shell" aria-labelledby="activity-heading">
+        <div class="activity-head reveal"><div><p class="section-label">Live session</p><h2 id="activity-heading">Routing activity</h2></div><button id="clear-history" class="reset-button" type="button">Clear activity</button></div>
+        <div id="activity-list" class="activity-list reveal"><div class="activity-placeholder"><span class="pulse-dot"></span> Your recent NUT routes will appear here during this demo.</div></div>
+      </section>
+
+      <section class="team-section" id="team">
+        <div class="shell team-inner reveal">
+          <div><p class="section-label">Project team</p><h2>Built together.<br />Presented with purpose.</h2></div>
+          <div class="team-list" aria-label="Team members"><strong><i>N</i>Nishant Kumar</strong><strong><i>U</i>Uday Kumar</strong><strong><i>T</i>Tanu Yadav</strong></div>
+          <p class="team-note">NUT represents the initials of our project group: Nishant, Uday, and Tanu.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="shell footer"><span>© 2026 NUT Complaint Intelligence</span><span>College project · Built for demonstration</span></footer>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
