@@ -99,6 +99,8 @@ When creating a new **Blueprint** from this GitHub repository, Render runs
 `python train.py` during the build to create the model, then starts the dashboard
 with `python app.py`.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/udaykumar8688/nut-complaint-intelligence)
+
 ## Important note
 
 This project demonstrates the complete workflow but is not production ready.
