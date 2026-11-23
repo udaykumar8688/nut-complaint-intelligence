@@ -31,8 +31,8 @@
       <div class="intro-surface">
     <header class="topbar shell" id="top">
       <a class="brand" href="#top" aria-label="NUT home">
-        <span class="nut-logo nut-logo-small" aria-hidden="true"><i></i><b>N</b><b>U</b><b>T</b></span>
-        <span class="brand-copy"><strong>NUT</strong><em>Complaint Intelligence</em></span>
+        <span class="brand-crest" aria-hidden="true"><img src="/static/nut-walnut-favicon.png?v=transparent" alt="" /></span>
+        <span class="brand-copy"><strong>NUT</strong><em>Complaint Intelligence · Est. 2026</em></span>
       </a>
 
       <nav class="nav-links" aria-label="Main navigation">
@@ -133,10 +133,15 @@
                 <span class="typing-cursor" aria-hidden="true"></span>
               </div>
               <div class="sample-area">
-                <span>Quick start</span>
-                <button class="example-chip" data-example="I was billed twice for my annual subscription and need a refund.">Charged twice</button>
-                <button class="example-chip" data-example="I have waited for two days but nobody from support has answered my request.">No response</button>
-                <button class="example-chip" data-example="The mobile app crashes immediately after I sign in.">App crash</button>
+                <span>Quick start · load a route</span>
+                <div class="sample-options">
+                  <button class="example-chip billing-chip" data-example="I was billed twice for my annual subscription and need a refund.">Charged twice</button>
+                  <button class="example-chip service-chip" data-example="I have waited for two days but nobody from support has answered my request.">No support reply</button>
+                  <button class="example-chip technical-chip" data-example="The mobile app crashes immediately after I sign in.">App crash</button>
+                  <button class="example-chip account-chip" data-example="Please help me change the name shown on my account profile.">Update profile</button>
+                  <button class="example-chip security-chip" data-example="I do not recognize this transaction and think someone accessed my account.">Unknown transaction</button>
+                  <button class="example-chip orders-chip" data-example="The courier marked my order delivered but my package never arrived.">Missing parcel</button>
+                </div>
               </div>
               <div class="intake-actions">
                 <button id="clear-button" class="reset-button" type="button">Clear message</button>
