@@ -159,7 +159,10 @@ class ClassifierHandler(SimpleHTTPRequestHandler):
 def main() -> None:
     # Default to the dashboard port while allowing a hosting platform to
     # supply its own network settings.
-    host = os.environ.get("HOST", "127.0.0.1")
+    # Cloud providers such as Render route traffic through a public interface.
+    # Listening on all interfaces keeps local use working while allowing Render
+    # to detect the application port supplied through its PORT environment variable.
+    host = os.environ.get("HOST", "0.0.0.0")
     port = int(os.environ.get("PORT", "8000"))
     server = ThreadingHTTPServer((host, port), ClassifierHandler)
     print("\nNUT Complaint Intelligence is running.")
